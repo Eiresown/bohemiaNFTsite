@@ -8,7 +8,7 @@ import { FC } from "react";
 export const BohCard: FC = () => {
   return (
                   
-        <div className="card bg-black bg-opacity-50 shadow-xl">
+        <div className="card bg-black bg-opacity-50 shadow-xl mb-5">
         <figure className="px-10 pt-10"><Image src="/pfp.webp" alt="Bohemia" width={200} height={200} /></figure>
         <div className="card-body">
             <h1 className="mb-5 text-5xl font-bold">Bohemia</h1>

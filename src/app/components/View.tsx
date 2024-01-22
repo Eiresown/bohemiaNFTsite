@@ -15,20 +15,17 @@ export const View: FC = () => {
         <Banner />
         <Card />
         <Map /> 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
-          <div className="min-h-full">
+        <div className="flex flex-wrap justify-center gap-5">
+          <div className="flex-1 min-h-full mb-5">
             <BohCard />
           </div>
-          <div className="min-h-full">
+          <div className="flex-1 min-h-full mb-5">
             <WoopCard />
           </div>
-          <div className="min-h-full">
+          <div className="flex-1 min-h-full mb-5">
             <FabCard />
           </div>
-        
         </div>
-        
-      
       </div>
     </div>
   );
